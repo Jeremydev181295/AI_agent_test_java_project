@@ -24,3 +24,18 @@ Preview
     </td>
   </tr>
   </table>
+
+Rebuilding the project
+----------
+After making changes to the code, you can rebuild the project by following these steps:
+1. Add 'bin' directory in your project directory.
+2. Open a command prompt (cmd) in your project directory.
+3. Run the following commands.
+```
+javac -d bin src/Calculator_package/Calcualtor.java
+```
+
+```
+java -cp bin Calculator_package.Calcualtor
+```
+These commands will compile and run the modified code, allowing you to verify the changes made.
